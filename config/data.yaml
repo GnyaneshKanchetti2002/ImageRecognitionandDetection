@@ -1,0 +1,14 @@
+train: D:\Image Recognition and Detection\dataset\images\train
+val: D:\Image Recognition and Detection\dataset\images\val
+
+nc: 1
+names: ['number_plate']
+
+augment: True
+flipud: 0.5  # Vertical flip
+fliplr: 0.5  # Horizontal flip
+degrees: 10  # Rotate
+scale: 0.5   # Scale images
+hsv_h: 0.015  # color jitter
+hsv_s: 0.7
+hsv_v: 0.4
